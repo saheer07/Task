@@ -41,11 +41,13 @@ export default function Dashboard() {
       <br />
       <br />
       <input
+      type="text"
         placeholder="Name"
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
       <input
+      type="number"
         placeholder="Age"
         value={age}
         onChange={(e) => setAge(e.target.value)}
